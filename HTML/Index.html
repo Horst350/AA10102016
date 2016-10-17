@@ -7,5 +7,25 @@
   </head>
 
   <body>
+	<form>
+		<p> Fläche je Stockwerk in qm: <input type="number" name="fläche"> </p>
+		<p> Stockwerkshöhe in m: <input type="number" name="höhe"> </p>
+		<p> Anzahl Stockwerke: <input type="number" name="anzahl"> </p>
+	
+		<fieldset> Baujahr des Sanierungsobjekts / letzte Sanierung </br>
+			<input type="radio" name="jahr" value="1950"> vor 1950 </br>
+			<input type="radio" name="jahr" value="1977"> vor 1977 </br>
+			<input type="radio" name="jahr" value="1987"> vor 1987 </br>
+			<input type="radio" name="jahr" value="1998"> vor 1998 </br>
+			<input type="radio" name="jahr" value="2002"> vor 2002 </br>
+			<input type="radio" name="jahr" value="2009"> vor 2009 </br>
+		</fieldset>
+		
+		<input type="submit" value="Absenden">
+		<input type="reset" value="Zurücksetzen">
+		
+	</form>
+
+  
   </body>
 </html>
